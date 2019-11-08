@@ -1,0 +1,302 @@
+html {
+	width:100%;
+	height:100%;	
+}
+
+body {
+	display:flex;
+	width:100%;
+	height:300%;	
+	margin:0;
+	font-family:OCR A Std, monospace;
+	font-size: 30px;
+	text-align: left;
+	cursor: url("https://img.icons8.com/color/50/000000/the-sims.png") 10 10,auto;
+	background-color: FFF0D6;
+}
+
+a:link{
+	color: black;
+	text-decoration: none;
+}
+
+a:visited{
+	color: black;
+}
+
+a:hover{
+	color: black;
+}
+
+
+h1{
+	font-family:Andale Mono, monospace;
+	font-size: 30px;
+	text-align: left;
+	word-spacing: 100px;
+}
+	
+p{
+	border-style: solid;
+    border-width: 15px;
+	border-color: green;
+
+}
+
+.row{
+	width:100%;
+	height:25%;
+	display:flex;
+}
+
+.page{
+	height:35%;
+	width:100%;
+	display:block;
+}
+
+.row1{
+	width:75%;
+	height:100%;
+}
+
+.box{
+	width:25%;
+	height:100%;
+}
+.rowi{
+	width:100%;
+	height:75%;
+}
+.rowo{
+	width:100%;
+	height:25%;
+}
+.rows{
+	width:100%;
+	height:15%;
+	display:flex;
+}
+
+.row2{
+	width:75%;
+	height:100%;
+}
+.box1{
+	width:25%;
+	height:100%;
+}
+
+.row3{
+	width:100%;
+	height:50%;
+	display:flex;
+}
+
+.blank1{
+	width:2%;
+	height:100%;
+}
+
+.hold{
+	justify-content:center;
+	align-items:center;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 100%;
+  max-width: 100%;
+ 
+}
+
+.box3{
+	width:33.33%;
+	height:100%;
+	display:flex;
+}
+
+
+.space{
+	width:100%;
+	height:10%;
+	display:flex
+}
+
+.blank{
+	width:20%;
+	height:100%;
+	display:block;
+}
+
+.photo{
+	height:60%;
+	display:flex;
+	width:100%;
+}
+
+.boxs{
+	width:60%;
+	height:100%;
+	display:flex;
+}
+
+.box9{
+	width:50%;
+	height:100%;
+	display:flex;
+}
+
+.box91{
+	width:50%;
+	height:100%;
+	display:flex;
+}
+
+.blank4{
+	display:none;
+}
+
+/*tablet*/
+@media only screen and (max-width: 800px) {
+		
+	body{
+		height:150%;
+		width:100%;
+		background-image:url("images/background.JPG");
+	}
+	
+	.blank1{
+		display:none;
+	}
+	
+	.box1{
+		display:none;
+	}
+	
+	.row2{
+		width:100%;
+	}
+	
+	.gone{
+		display:none;
+	}
+	
+	.blank1{
+		display:none;
+	}
+	
+	.box91{
+		display:none;
+	}
+	
+	.box9{
+		width:100%;
+	}
+	
+	.row2{
+		display:none;
+	}
+	
+	.new{
+		content: url("images/original.png");
+		margin:auto;
+		max-height: 100%;
+		max-width: 70%;	
+	}
+	
+	.row{
+		height:80%;
+	}
+	
+	.space{
+		display:none;
+	}
+	
+	.box{
+		display:none;
+	}
+	
+	.rows{
+		display:none;
+	}
+}	
+
+/*phone*/
+@media only screen and (max-width: 400px) {
+	
+	body{
+		height:300%;
+	}
+	
+	.blank1{
+		display:none;
+	}
+	
+	.box{
+		display:none;
+	}
+	
+	.box1{
+		display:none;
+	}
+	
+	
+	.row1{
+		width:100%;
+	}
+	
+	.blank{
+		display:none;
+	}
+	.boxs{
+		width:100%;
+	}
+	
+	.row3{
+		display:block;
+		height:100%;
+		width:100%;
+	}	
+	.box3{
+		height:33.33%;
+		width:100%;
+	}
+	
+	.box9{
+		height:100%;
+		width:100%;	
+	}
+	
+	.h1{
+		display:none;
+	}
+	
+	.a{
+		display:none;
+	}
+	
+	.photo{
+		height:30%;
+		width:100%;
+	}
+	
+	.space{
+		display:none;
+	}
+			
+	.new{
+		content: url("images/IMG_2265.PNG");
+		height:30%;
+	}
+	
+	.fit{
+		content:url("images/goth1 - Copy.png");
+	}
+	
+	
+}
+		
+
+	
