@@ -25,9 +25,13 @@ a:visited{
 }
 
 a:hover{
-	color: black;
+	color: green;
+	font-size: 100.9%;
 }
 
+.leave{
+	display:none;
+}
 
 h1{
 	font-family:Andale Mono, monospace;
@@ -43,6 +47,17 @@ p{
 
 }
 
+.in{
+	margin-bottom:50%;
+	width:10%;
+}
+
+.in1{
+	width:10%;
+	margin-top:50%;
+}
+
+	
 .row{
 	width:100%;
 	height:25%;
@@ -158,6 +173,20 @@ p{
 	display:none;
 }
 
+
+.pulse :hover{ 
+  animation: pulse 1s infinite;
+  animation-timing-function: linear;   
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1);
+  100% { transform: scale(1); }
+  }
+}
+
+
 /*tablet*/
 @media only screen and (max-width: 800px) {
 		
@@ -180,10 +209,6 @@ p{
 	}
 	
 	.gone{
-		display:none;
-	}
-	
-	.blank1{
 		display:none;
 	}
 	
@@ -230,19 +255,6 @@ p{
 		height:300%;
 	}
 	
-	.blank1{
-		display:none;
-	}
-	
-	.box{
-		display:none;
-	}
-	
-	.box1{
-		display:none;
-	}
-	
-	
 	.row1{
 		width:100%;
 	}
@@ -250,6 +262,7 @@ p{
 	.blank{
 		display:none;
 	}
+	
 	.boxs{
 		width:100%;
 	}
@@ -259,6 +272,7 @@ p{
 		height:100%;
 		width:100%;
 	}	
+	
 	.box3{
 		height:33.33%;
 		width:100%;
@@ -295,8 +309,9 @@ p{
 		content:url("images/goth1 - Copy.png");
 	}
 	
-	
 }
+		
+
 		
 
 	
